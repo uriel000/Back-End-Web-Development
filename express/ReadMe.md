@@ -6,3 +6,10 @@ Express Helps Us To:
 - Parse incoming requests
 - Match those requests to particular routes
 - Craft our HTTP response and associated content
+
+
+I've learned about:
+- app.get
+- app.post
+- app.listen
+- app.use

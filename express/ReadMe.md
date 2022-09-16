@@ -9,6 +9,9 @@ Express Helps Us To:
 
 
 I've learned about:
+- The Request and Response Objects
+- Basics of Express Routing
+- Query Strings
 - app.get
 - app.post
 - app.listen

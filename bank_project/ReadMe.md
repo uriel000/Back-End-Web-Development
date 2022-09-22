@@ -8,11 +8,11 @@
 - Defining Express Post Routes
 - Parsing the Request body
 - Intro to REST
-- RESTful comments overview
-- RESTful comments index
-- RESTful comments new
+- RESTful: overview
+- RESTful: index
+- RESTful: new
 - Express redirects
-- RESTful comments show
+- RESTful: show
 - The UUID package
-- RESTful comments update
+- RESTful: update
 - Express Method Override

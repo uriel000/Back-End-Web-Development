@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose Account</title>
+</head>
+<body>
+    <h1>Welcome Please Choose Your Account</h1>
+    <section>
+        <% for (let a of accounts) {%> 
+            <p><b>Account</b></p>
+            <p><%= a.username %> : ID - <%= a.id %> </p>
+            <button><a href="/<%= a.id %>">Open Account</a></button>
+        <% } %> 
+    </section>
+    <br>
+    <br>
+    <p><strong>No account yet? </strong><a href="/signup">Create acount</a></p>
+</body>
+</html>

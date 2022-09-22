@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+</head>
+<body>
+    <h1>Bank Dashboard</h1>
+    <h2>Please choose transaction</h2>
+    <p><strong>Account name: </strong><%= account.username %> </p>
+    <p><strong>Total balance: </strong><%= account.balance %> </p>
+    <button><a href="/<%= account.id %>/deposit">Deposit cash</a></button><br><br><br>   
+    <button><a href="/<%= account.id %>/withdraw">Withdraw cash</a></button><br><br><br>   
+    <button><a href="/">Return Home</a></button>
+</body>
+</html>

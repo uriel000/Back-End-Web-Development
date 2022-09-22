@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Withdrawal</title>
+</head>
+<body>
+    <h1>Make a WITHDRAWAL</h1>
+    <h2>Account name: <i><%= account.username %></i></h2>
+    <h2>Current balance: <i><%= account.balance %></i></h2>
+    <form action="/<%= account.id %>/withdraw?_method=PATCH" method="post">
+        <label for="balance">Enter amount:</label><br>
+        <textarea name="balance" id="balance" cols="30" rows="10">
+            <%= account.balance %> 
+        </textarea>
+        <br>
+        <button>Save</button>
+    </form>
+    
+</body>
+</html>

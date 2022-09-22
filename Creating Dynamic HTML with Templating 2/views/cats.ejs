@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('partials/head') %> 
+<body>
+<%- include('partials/navbar') %> 
+      <div class="container">
+        <h1>We love CATS!</h1>
+        <ul>
+            <% for (let cat of cats) {%>
+                <li><%= cat  %></li>
+            <% } %> 
+        </ul>
+
+      </div>
+
+</body>
+</html>

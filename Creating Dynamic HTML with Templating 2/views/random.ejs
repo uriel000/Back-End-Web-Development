@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('partials/head') %> 
+  <body>
+    <%- include('partials/navbar') %> 
+    <h1>Your random number is: <%= randomNum %>  </h1>
+    <% if (randomNum %2 === 0) { %>
+        <h2>The random number is EVEN</h2>
+    <% } else { %>
+        <h2>The random number is ODD</h2>
+    <% } %> 
+
+    <!-- Other way -->
+    <h2 style="color:chartreuse;"><%= randomNum%2===0 ? "The number is EVEN" : "The number is ODD"%> </h2>
+</body>
+</html>
